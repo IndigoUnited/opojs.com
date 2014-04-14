@@ -12,7 +12,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     background-color: #FFFDF8;
-    background-image: url(../grain.gif);
+    background-image: url(../images/grain.gif);
     /*background-size: cover;*/
     background-repeat: repeat;
    /* background-position: center center;
@@ -266,7 +266,7 @@ h2 {
     width:100%;
     min-height: 486px;
     /*margin: -2em auto;*/
-    background-image: url(../writing-bg.jpg);
+    background-image: url(../images/writing-bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
@@ -324,8 +324,8 @@ footer .twitter a:after{
 
 footer .twitter a:before { left:0; }
 footer .twitter a:after { right:0; }
-footer .twitter a:hover:before { background: url(../bird-right.jpg) 0 0 no-repeat; }
-footer .twitter a:hover:after { background: url(../bird-left.jpg) 0 0 no-repeat; }
+footer .twitter a:hover:before { background: url(../images/bird-right.jpg) 0 0 no-repeat; }
+footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-repeat; }
 
 
 
