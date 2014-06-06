@@ -375,7 +375,6 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
 
 #mc_embed_signup .submit-wrap {
     display: block;
-    background-color:red;
     padding: 3px;
     margin: 2em auto 1em;
     background-color: #FFFDF8;
@@ -408,9 +407,30 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     border-radius: 0;
 }
 
-
 #mc_embed_signup input[type=submit]:hover {
     border: 1px solid #FFFDF8;
+}
+
+#mc_embed_signup a.button-attend {
+    display:block;
+    text-transform: uppercase;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    background-color: #FFFDF8;
+    font-weight: 600;
+    height: 3em;
+    line-height: 3em;
+    letter-spacing: .1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-family: 'Josefin Slab', serif;
+    margin: 0 auto;
+    position: relative;
+    width:auto;
+    text-align: center;
+    text-decoration:none;
 }
 
 
@@ -440,7 +460,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     #mc_embed_signup input[type=email]:focus { border-bottom: solid 1px rgba(0,0,0, 0.9); }
 
     #mc_embed_signup .submit-wrap {
-        width:50%;
+        width:70%;
         background-color: #1a1a1a;
     }
 
@@ -452,6 +472,12 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
 
     #mc_embed_signup input[type=submit]:hover {
         border: 1px solid #1a1a1a;
+    }
+
+    #mc_embed_signup a.button-attend {
+        border: 1px solid #FFFDF8;
+        color: #FFFDF8;
+        background-color: #1a1a1a;
     }
 }
 
