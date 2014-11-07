@@ -18,6 +18,7 @@ html {
    /* background-position: center center;
     background-attachment: fixed;*/
     -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
     color: #FFFDF8;
     /*font-family: "PT Mono", "Andale Mono", AndaleMono, "Lucida Console", "Lucida Sans Typewriter", monospace;*/
     font-family: 'Josefin Slab', serif;
@@ -40,6 +41,7 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 audio,
@@ -70,10 +72,6 @@ textarea {
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
-
-body {
-    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
-}
 
 .wrapper {
     width: 90%;
@@ -138,17 +136,13 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.main {
-    /* padding: 30px 0; */
-}
-
 .main article h1 {
     font-size: 2em;
 }
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0 5% 10px;
 }
 
 .footer-container footer {
@@ -171,7 +165,7 @@ nav a:hover {
 header {
     text-align:center;
     width:100%;
-    margin:0em auto 0;
+    margin:0 auto 0;
 }
 
 header .img-right,
@@ -341,7 +335,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     float:none;
     border:4px solid #1a1a1a;
     padding:24px;
-
+    box-sizing: border-box;
 }
 
 #mc_embed_signup label {
@@ -367,6 +361,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     font-size: 1.5em;
     outline:none;
     text-indent: 10px;
+    box-sizing: border-box;
 }
 
 #mc_embed_signup input[type=email]:focus {
@@ -387,6 +382,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     -ms-appearance: none;
     -o-appearance: none;
     appearance: none;
+    box-sizing: border-box;
     display:block;
     text-transform: uppercase;
     border: 1px solid #1a1a1a;
@@ -431,6 +427,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     width:auto;
     text-align: center;
     text-decoration:none;
+    box-sizing: border-box;
 }
 
 
@@ -454,6 +451,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
         margin: 4em auto 0;
         padding: 24px;
         background-color: rgba(255,253,248,0.6);
+        box-sizing: border-box;
     }
 
     #mc_embed_signup input[type=email] { border-bottom: solid 1px rgba(0,0,0, 0.4); color: #1a1a1a;}
@@ -509,6 +507,7 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
+        box-sizing: border-box;
     }
 
     nav li:first-child a {
@@ -530,7 +529,6 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     .oldie nav a {
         margin: 0 0.7%;
     }
-}
 
 @media only screen and (min-width: 768px) {
 
@@ -645,71 +643,4 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
 
 .clearfix {
     *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }
