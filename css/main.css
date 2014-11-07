@@ -72,10 +72,6 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
-}
-
 .wrapper {
     width: 90%;
     margin: 0 5%;
@@ -138,10 +134,6 @@ nav a:hover {
 /* ==============
     MOBILE: Main
    ============== */
-
-.main {
-    /* padding: 30px 0; */
-}
 
 .main article h1 {
     font-size: 2em;
@@ -536,7 +528,6 @@ footer .twitter a:hover:after { background: url(../images/bird-left.jpg) 0 0 no-
     .oldie nav a {
         margin: 0 0.7%;
     }
-}
 
 @media only screen and (min-width: 768px) {
 
